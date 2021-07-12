@@ -1,0 +1,13 @@
+/**
+ * @introduction React入口文件
+ * 
+ * @description Nothing
+ */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+    <App />,
+  document.getElementById('root')
+);
